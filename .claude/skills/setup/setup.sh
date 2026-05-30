@@ -4,7 +4,7 @@
 # UnityYAMLMerge 머지 드라이버 등록은 명령을 출력만 하므로 직접 실행해야 한다.
 set -u
 
-cd "$(dirname "${BASH_SOURCE[0]}")/.." || exit 1
+cd "$(dirname "${BASH_SOURCE[0]}")/../../.." || exit 1
 
 echo "==> CSharpier (dotnet 로컬 도구) 복원"
 dotnet tool restore || echo "  ! 실패 — .NET SDK 설치를 확인하세요."

@@ -10,7 +10,7 @@ Unity 6.3 / URP 17 기반 프로젝트 템플릿. GitHub **템플릿 저장소(T
 4. 최초 1회 로컬 개발 환경 초기화:
 
 ```bash
-bash scripts/setup.sh        # Claude Code: `/setup` 스킬로도 실행 가능
+bash .claude/skills/setup/setup.sh   # Claude Code: `/setup` 스킬로도 실행 가능
 ```
 
 대용량 바이너리가 많아지면, 새 저장소에서 [Git LFS](https://git-lfs.github.com/)를 별도로 도입하면 됩니다.
