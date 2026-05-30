@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "hooks": {
+    "preToolUse": [
+      {
+        "matcher": "Write",
+        "command": "bash .cursor/hooks/guard-unity-writes.sh"
+      }
+    ],
+    "afterFileEdit": [
+      {
+        "command": "bash .claude/hooks/format-csharp.sh"
+      },
+      {
+        "command": "bash .claude/hooks/format-prettier.sh"
+      }
+    ]
+  }
+}
