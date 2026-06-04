@@ -7,12 +7,9 @@
         "command": "bash .cursor/hooks/guard-unity-writes.sh"
       }
     ],
-    "afterFileEdit": [
+    "stop": [
       {
-        "command": "bash .claude/hooks/format-csharp.sh"
-      },
-      {
-        "command": "bash .claude/hooks/format-prettier.sh"
+        "command": "bash .claude/hooks/format-on-stop.sh"
       }
     ]
   }

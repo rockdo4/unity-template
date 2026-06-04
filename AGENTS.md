@@ -11,7 +11,7 @@ Unity 6.3 / URP 17 프로젝트. Claude Code·Cursor 등 모든 에이전트의 
 ## 코드
 
 - 위치 `Assets/Scripts/`. 기능 단위 폴더마다 `.asmdef`(이름=폴더 경로, 에디터 전용은 Editor asmdef로 분리).
-- 스타일은 `.editorconfig`(C# 4-space, max 120). 편집 시 CSharpier·Prettier 훅이 자동 포맷하므로 수동 포맷 불필요.
+- 스타일은 `.editorconfig`(C# 4-space, max 120). 작업을 마치면(Stop 훅) CSharpier·Prettier가 변경 파일을 일괄 자동 포맷하므로 수동 포맷 불필요(편집 도중에는 포맷되지 않는다).
 - 입력은 Input System(레거시 Input Manager 금지), 렌더는 URP.
 
 ## 컴파일·테스트
