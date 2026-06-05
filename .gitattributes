@@ -58,3 +58,9 @@
 *.spriteatlas      merge=unityyamlmerge eol=lf
 *.terrainlayer     merge=unityyamlmerge eol=lf
 * !text !filter !merge !diff
+
+# -----------------------------------------------------------------------------
+# 바이너리 자산: 줄끝 정규화·diff 비활성 (바이너리 손상 방지)
+# 폰트 (.ttf/.otf 원본). TMP SDF .asset 은 YAML 텍스트라 위 규칙을 따른다.
+*.ttf  binary
+*.otf  binary

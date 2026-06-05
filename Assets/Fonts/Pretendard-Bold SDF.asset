@@ -35,7 +35,7 @@ MonoBehaviour:
     m_StrikethroughOffset: 19.2
     m_StrikethroughThickness: 8.261719
     m_TabWidth: 21
-  m_Material: {fileID: 3851591109073304675}
+  m_Material: {fileID: 3088287924174238079}
   m_SourceFontFileGUID: 36ea6ceab84cbb34a855b1bbc673d0a9
   m_CreationSettings:
     sourceFontFileName: 
@@ -46,8 +46,8 @@ MonoBehaviour:
     padding: 9
     paddingMode: 2
     packingMode: 0
-    atlasWidth: 1024
-    atlasHeight: 1024
+    atlasWidth: 2048
+    atlasHeight: 2048
     characterSetSelectionMode: 7
     characterSequence: 
     referencedFontAssetGUID: 
@@ -63,21 +63,21 @@ MonoBehaviour:
   m_GlyphTable: []
   m_CharacterTable: []
   m_AtlasTextures:
-  - {fileID: 7830351345348096841}
+  - {fileID: 8172721977347313903}
   m_AtlasTextureIndex: 0
-  m_IsMultiAtlasTexturesEnabled: 0
+  m_IsMultiAtlasTexturesEnabled: 1
   m_GetFontFeatures: 1
   m_ClearDynamicDataOnBuild: 1
-  m_AtlasWidth: 1024
-  m_AtlasHeight: 1024
+  m_AtlasWidth: 2048
+  m_AtlasHeight: 2048
   m_AtlasPadding: 9
   m_AtlasRenderMode: 4165
   m_UsedGlyphRects: []
   m_FreeGlyphRects:
   - m_X: 0
     m_Y: 0
-    m_Width: 1023
-    m_Height: 1023
+    m_Width: 2047
+    m_Height: 2047
   m_FontFeatureTable:
     m_MultipleSubstitutionRecords: []
     m_LigatureSubstitutionRecords: []
@@ -141,7 +141,7 @@ MonoBehaviour:
     kerningPairs: []
   fallbackFontAssets: []
   atlas: {fileID: 0}
---- !u!21 &3851591109073304675
+--- !u!21 &3088287924174238079
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -177,7 +177,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 7830351345348096841}
+        m_Texture: {fileID: 8172721977347313903}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OutlineTex:
@@ -227,8 +227,8 @@ Material:
     - _StencilOp: 0
     - _StencilReadMask: 255
     - _StencilWriteMask: 255
-    - _TextureHeight: 1024
-    - _TextureWidth: 1024
+    - _TextureHeight: 2048
+    - _TextureWidth: 2048
     - _UnderlayDilate: 0
     - _UnderlayOffsetX: 0
     - _UnderlayOffsetY: 0
@@ -250,7 +250,7 @@ Material:
     - _UnderlayColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!28 &7830351345348096841
+--- !u!28 &8172721977347313903
 Texture2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -290,7 +290,7 @@ Texture2D:
   m_ColorSpace: 1
   m_PlatformBlob: 
   image data: 1
-  _typelessdata: cd
+  _typelessdata: 00
   m_StreamData:
     serializedVersion: 2
     offset: 0
