@@ -9,6 +9,9 @@ obj/
 Build/
 build/
 UserSettings/
+ProjectSettings/
+Packages/packages-lock.json
+Assets/Packages/
 
 # Unity YAML / 메타 (UnityYAMLMerge·에디터 전용)
 **/*.meta
@@ -18,4 +21,18 @@ UserSettings/
 **/*.mat
 **/*.anim
 **/*.controller
- 
+**/*.overrideController
+**/*.physicMaterial
+**/*.physicsMaterial2D
+**/*.playable
+**/*.mask
+**/*.brush
+**/*.flare
+**/*.fontsettings
+**/*.guiskin
+**/*.giparams
+**/*.preset
+**/*.lighting
+**/*.signal
+**/*.spriteatlas
+**/*.terrainlayer

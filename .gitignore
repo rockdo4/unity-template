@@ -193,3 +193,6 @@ tmbootpicker.efi
 # npm (Prettier 등 devDependencies)
 /node_modules/
 
+# NuGetForUnity restored packages (restored from Assets/packages.config)
+/Assets/Packages/
+/Assets/Packages.meta

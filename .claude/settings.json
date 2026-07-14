@@ -1,33 +1,42 @@
 {
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "enableAllProjectMcpServers": true,
   "permissions": {
     "allow": [
       "Read",
-      "Bash(git status)",
-      "Bash(git diff *)",
-      "Bash(git log *)",
-      "Bash(dotnet csharpier *)",
-      "Bash(npm ci *)",
-      "Bash(npm exec *)",
-      "Bash(npm run format*)"
+      "Edit",
+      "Write",
+      "Bash",
+      "WebFetch",
+      "WebSearch",
+      "mcp__unityMCP__*"
     ],
     "deny": [
-      "Write(./**/*.meta)",
-      "Edit(./**/packages-lock.json)",
-      "Edit(./**/*.unity)",
-      "Write(./**/*.unity)"
+      "Edit(/Assets/**/*.meta)",
+      "Edit(/Assets/**/*.unity)",
+      "Edit(/Assets/**/*.prefab)",
+      "Edit(/Assets/**/*.asset)",
+      "Edit(/Assets/**/*.mat)",
+      "Edit(/Assets/**/*.anim)",
+      "Edit(/Assets/**/*.controller)",
+      "Edit(/Assets/**/*.overrideController)",
+      "Edit(/Assets/**/*.physicMaterial)",
+      "Edit(/Assets/**/*.physicsMaterial2D)",
+      "Edit(/Assets/**/*.playable)",
+      "Edit(/Assets/**/*.mask)",
+      "Edit(/Assets/**/*.brush)",
+      "Edit(/Assets/**/*.flare)",
+      "Edit(/Assets/**/*.fontsettings)",
+      "Edit(/Assets/**/*.guiskin)",
+      "Edit(/Assets/**/*.giparams)",
+      "Edit(/Assets/**/*.preset)",
+      "Edit(/Assets/**/*.lighting)",
+      "Edit(/Assets/**/*.signal)",
+      "Edit(/Assets/**/*.spriteatlas)",
+      "Edit(/Assets/**/*.terrainlayer)",
+      "Edit(/Packages/packages-lock.json)",
+      "Edit(/ProjectSettings/**)"
     ],
-    "defaultMode": "default"
-  },
-  "hooks": {
-    "Stop": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "bash .claude/hooks/format-on-stop.sh"
-          }
-        ]
-      }
-    ]
+    "defaultMode": "auto"
   }
 }
