@@ -13,6 +13,7 @@ Unity 6.3 / URP 17 프로젝트. 모든 코딩 에이전트의 공통 지침(스
 
 - 위치 `Assets/Scripts/`. 기능 단위 폴더마다 `.asmdef`(이름=폴더 경로, 에디터 전용은 Editor asmdef로 분리).
 - 스타일은 `.editorconfig`(C# 4-space, max 120). 자동 포매터 훅은 쓰지 않는다(턴마다 포맷하면 에이전트가 파일을 다시 읽어야 함). **커밋 전에 `npm run format:changed`**(변경·신규 파일만 CSharpier·Prettier)를 실행한다. 포매팅 외 목적의 훅은 사용할 수 있다.
+- 포매터 버전은 고정(`package.json`, `.config/dotnet-tools.json`)한다. 최신으로 올릴 때는 `npm run update:formatters` 후 커밋한다.
 - 입력은 Input System(레거시 Input Manager 금지), 렌더는 URP.
 - 비동기 구현은 별도 지시가 없어도 UniTask를 사용한다.
 - R3와 VContainer는 사용자가 명시적으로 요청한 경우에만 사용한다.

@@ -2,11 +2,12 @@
   "name": "unity-template",
   "private": true,
   "devDependencies": {
-    "prettier": "3.5.3"
+    "prettier": "3.10.1"
   },
   "scripts": {
     "format": "prettier --write --ignore-path .prettierignore .",
     "format:check": "prettier --check --ignore-path .prettierignore .",
-    "format:changed": "bash scripts/format-changed.sh"
+    "format:changed": "bash scripts/format-changed.sh",
+    "update:formatters": "npm install --save-dev --save-exact prettier@latest && dotnet tool update --local csharpier"
   }
 }
