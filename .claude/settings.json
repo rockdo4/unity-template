@@ -1,16 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-settings.json",
-  "enableAllProjectMcpServers": true,
   "permissions": {
-    "allow": [
-      "Read",
-      "Edit",
-      "Write",
-      "Bash",
-      "WebFetch",
-      "WebSearch",
-      "mcp__unityMCP__*"
-    ],
+    "allow": ["Read", "Edit", "Write", "Bash", "WebFetch", "WebSearch"],
     "deny": [
       "Edit(/Assets/**/*.meta)",
       "Edit(/Assets/**/*.unity)",
